@@ -21,7 +21,7 @@ Here are some ideas to get you started:
 
 <img align="right" src="https://cdn.discordapp.com/attachments/773803149890027520/780032461681066004/tenor.gif" alt="Coder GIF" width="450" height="350">
 
-<a href="https://discord.gg/SYjc9F2">
+<a href="">
   
   <img src="https://cdn.iconscout.com/icon/free/png-64/discord-3-569463.png" alt="BIT CODΞ LΞGIOИ 💻" width="26"/>
 
