@@ -1,7 +1,7 @@
-### Hi there 👋
-
-### I'm Bhushan A Bangera
-
+<div align="center">
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Bhushan!;" />
+</h1>
 
 <!--
 **bhushan0512/bhushan0512** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -19,38 +19,18 @@ Here are some ideas to get you started:
 -->
 
 
-<img align="right" src="https://cdn.discordapp.com/attachments/773803149890027520/780032461681066004/tenor.gif" alt="Coder GIF" width="450" height="350">
-
-<a href="">
-  
-  <img src="https://cdn.iconscout.com/icon/free/png-64/discord-3-569463.png" alt="BIT CODΞ LΞGIOИ 💻" width="26"/>
-
-</a>
-
-
-<a href="https://www.linkedin.com/in/bhushan-a-bangera">
-  
-  <img align="left" alt="Bhushan's LinkdeIN" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />
-
-</a>
-
-<a href="https://www.instagram.com/_.bhushan05.__">
-  
-  <img align="left" alt="Bhushan's Instagram" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/instagram.svg" />
-
-</a>
-
 <br>
-<br>
-
-- :telescope: I'm currently a MCA Student 💻;
-- :hourglass_flowing_sand: Learning and Exploring world of Computer Science,;
-- 💬 I love connecting with different people so if you need any help, I'll be happy to meet you :) ;
-- 📫 How to reach me: bhushanabangera687@gmail.com, bhushanabangera@gmail.com
+:telescope: I'm currently a MCA Student 💻
+</br></br>
+:hourglass_flowing_sand: Learning and Exploring world of Computer Science,;
+</br></br>
+💬 I love connecting with different people so if you need any help, I'll be happy to meet you :) ;
+</br></br>
+📫 How to reach me: <b>bhushanabangera687@gmail.com, bhushanabangera@gmail.com</b>
 
 
 # 💫 About Me:
-😎I am a Software Engineer with a passion for Science and Human Behaviours.<br>📬Shoot me an Email or add me on LinkedIn :)
+😎I am a Software Engineer with a passion for Science and Human Behaviours.<br><br>📬Shoot me an Email or add me on LinkedIn :)
 
 </br>
 
