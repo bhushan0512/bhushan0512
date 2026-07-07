@@ -6,7 +6,7 @@ const README_PATH = path.join(__dirname, "..", "README.md");
 const query = `
 query {
   viewer {
-    repositories(ownerAffiliations: OWNER, privacy: ALL) {
+    repositories(ownerAffiliations: OWNER) {
       totalCount
     }
     followers {
