@@ -23,6 +23,10 @@ query {
 `;
 
 async function fetchStats() {
+  if (!process.env.GH_TOKEN) {
+    throw new Error("GH_TOKEN secret is missing");
+  }
+
   const response = await fetch("https://api.github.com/graphql", {
     method: "POST",
     headers: {
@@ -33,6 +37,10 @@ async function fetchStats() {
   });
 
   const result = await response.json();
+
+  if (!response.ok) {
+    throw new Error(`HTTP ${response.status}: ${JSON.stringify(result)}`);
+  }
 
   if (result.errors) {
     throw new Error(JSON.stringify(result.errors, null, 2));
@@ -49,8 +57,20 @@ async function fetchStats() {
 }
 
 function replacePlaceholder(content, name, value) {
-  const regex = new RegExp(`<!--${name}-->\\d+<!--/${name}-->`, "g");
-  return content.replace(regex, `<!--${name}-->${value}<!--/${name}-->`);
+  const regex = new RegExp(
+    `<!--${name}-->\\s*\\d+\\s*<!--/${name}-->`,
+    "g"
+  );
+  const updated = content.replace(
+    regex,
+    `<!--${name}-->${value}<!--/${name}-->`
+  );
+
+  if (updated === content) {
+    console.warn(`Warning: placeholder ${name} not found in README.md`);
+  }
+
+  return updated;
 }
 
 async function main() {
